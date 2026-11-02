@@ -1,5 +1,5 @@
 mountpoints:
   /:
-    url: "https://author-p153659-e1620914.adobeaemcloud.com/bin/franklin.delivery/AEMXSC/RefDemoEDS/main"
+    url: "https://author-p56818-e741270.adobeaemcloud.com/bin/franklin.delivery/jauriolesces/wfg/main"
     type: "markup"
     suffix: ".html"
