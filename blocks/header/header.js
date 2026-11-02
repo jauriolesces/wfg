@@ -96,12 +96,31 @@ function buildUtility(section) {
 }
 
 /**
+ * Joins each image paragraph with the link paragraph that follows it
+ * (authored as separate image + link components): the image becomes the link content
+ * and the link text becomes its accessible label.
+ * @param {Element} section fragment section
+ */
+function linkImages(section) {
+  [...section.children].forEach((el) => {
+    const pic = el.querySelector('picture, img');
+    const next = el.nextElementSibling;
+    const link = next && next.querySelector(':scope > a');
+    if (!pic || el.querySelector('a') || !link || next.textContent.trim() !== link.textContent.trim()) return;
+    link.setAttribute('aria-label', link.textContent.trim());
+    link.replaceChildren(pic);
+    el.remove();
+  });
+}
+
+/**
  * Builds the brand (logo) area.
  * @param {Element} section fragment section
  */
 function buildBrand(section) {
   const brand = document.createElement('div');
   brand.className = 'nav-brand';
+  linkImages(section);
   const link = section.querySelector('a');
   if (link) brand.append(link);
   else brand.append(...section.childNodes);

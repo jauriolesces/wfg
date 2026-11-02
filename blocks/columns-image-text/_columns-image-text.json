@@ -9,7 +9,9 @@
             "resourceType": "core/franklin/components/columns/v1/columns",
             "template": {
               "columns": "2",
-              "rows": "1"
+              "rows": "1",
+              "model": "columns-image-text",
+              "classes": "image-text"
             }
           }
         }
@@ -33,6 +35,19 @@
           "name": "rows",
           "value": "",
           "label": "Rows"
+        },
+        {
+          "component": "select",
+          "name": "classes",
+          "label": "Style",
+          "valueType": "string",
+          "value": "image-text",
+          "options": [
+            {
+              "name": "Image + text",
+              "value": "image-text"
+            }
+          ]
         }
       ]
     }

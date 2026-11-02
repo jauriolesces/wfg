@@ -466,6 +466,19 @@
         "name": "rows",
         "value": "",
         "label": "Rows"
+      },
+      {
+        "component": "select",
+        "name": "classes",
+        "label": "Style",
+        "valueType": "string",
+        "value": "image-text",
+        "options": [
+          {
+            "name": "Image + text",
+            "value": "image-text"
+          }
+        ]
       }
     ]
   },

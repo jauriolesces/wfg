@@ -1,22 +1,22 @@
 {
   "mappings": [
-    "/content/wfg/language-masters/en:/",
-    "/content/wfg/language-masters/en/:/en/",
-    "/content/wfg/language-masters/fr/:/fr/",
-    "/content/wfg/language-masters/fr:/fr",
-    "/content/wfg/language-masters/es/:/es/",
-    "/content/wfg/language-masters/es:/es",
-    "/content/wfg/language-masters/ja/:/ja/",
-    "/content/wfg/language-masters/ja:/ja",
-    "/content/wfg/language-masters/de/:/de/",
-    "/content/wfg/language-masters/de:/de",
-    "/content/wfg/configuration:/.helix/config.json",
-    "/content/wfg/metadata:/metadata.json",
-    "/content/wfg/redirects:/redirects.json",
-    "/content/wfg/placeholders:/placeholders.json"
+    "/content/WFG/language-masters/en:/",
+    "/content/WFG/language-masters/en/:/en/",
+    "/content/WFG/language-masters/fr/:/fr/",
+    "/content/WFG/language-masters/fr:/fr",
+    "/content/WFG/language-masters/es/:/es/",
+    "/content/WFG/language-masters/es:/es",
+    "/content/WFG/language-masters/ja/:/ja/",
+    "/content/WFG/language-masters/ja:/ja",
+    "/content/WFG/language-masters/de/:/de/",
+    "/content/WFG/language-masters/de:/de",
+    "/content/WFG/configuration:/.helix/config.json",
+    "/content/WFG/metadata:/metadata.json",
+    "/content/WFG/redirects:/redirects.json",
+    "/content/WFG/placeholders:/placeholders.json"
   ],
   "includes": [
-    "/content/wfg/",
-    "/content/dam/wfg/"
+    "/content/WFG/",
+    "/content/dam/WFG/"
   ]
 }

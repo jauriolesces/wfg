@@ -37,6 +37,24 @@ function decorateLinkTargets(root) {
 }
 
 /**
+ * Joins each image paragraph with the link paragraph that follows it
+ * (authored as separate image + link components): the image becomes the link content
+ * and the link text becomes its accessible label.
+ * @param {Element} section fragment section
+ */
+function linkImages(section) {
+  [...section.children].forEach((el) => {
+    const pic = el.querySelector('picture, img');
+    const next = el.nextElementSibling;
+    const link = next && next.querySelector(':scope > a');
+    if (!pic || el.querySelector('a') || !link || next.textContent.trim() !== link.textContent.trim()) return;
+    link.setAttribute('aria-label', link.textContent.trim());
+    link.replaceChildren(pic);
+    el.remove();
+  });
+}
+
+/**
  * Classifies a fragment section by its content.
  * @param {Element} section fragment section
  * @returns {string} section class name
@@ -67,6 +85,7 @@ export default async function decorate(block) {
 
   let row;
   [...fragment.querySelectorAll(':scope > div')].forEach((section) => {
+    linkImages(section);
     const type = sectionType(section);
     section.className = `footer-section ${type}`;
     if (type === 'footer-links') {
@@ -75,10 +94,15 @@ export default async function decorate(block) {
       });
     }
     if (type === 'footer-social') {
+      const list = document.createElement('ul');
       section.querySelectorAll('a').forEach((a) => {
         const img = a.querySelector('img');
-        if (img) a.setAttribute('aria-label', img.alt);
+        if (img && !a.hasAttribute('aria-label')) a.setAttribute('aria-label', img.alt);
+        const li = document.createElement('li');
+        li.append(a);
+        list.append(li);
       });
+      section.replaceChildren(list);
     }
     // brand logo and social icons share one row
     if (type === 'footer-brand' || type === 'footer-social') {
