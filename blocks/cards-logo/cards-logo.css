@@ -1,0 +1,65 @@
+/* cards-logo: image-only logo grid (source .layout.flexcol-layout, grid--sm-1 / --md-2 / --lg-3) */
+
+/* Source logo sections and the heading sections above them use bottom-margin "none":
+   heading -> logos is only the h2 8px margin, logos -> next heading is 0.
+   The negative top margin collapses with the previous section's gap to leave 8px. */
+main > .section.cards-logo-container {
+  margin-top: calc(8px - var(--wfg-section-gap, 80px));
+  margin-bottom: 0;
+}
+
+.cards-logo {
+  color: rgb(40 24 5);
+}
+
+.cards-logo > ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 24px;
+}
+
+/* tile: white, 6:5 box (416x347 at 1440), logo contained and vertically centered */
+.cards-logo > ul > li {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  aspect-ratio: 6 / 5;
+  margin: 0;
+  padding: 0;
+  background-color: rgb(255 255 255);
+}
+
+.cards-logo .cards-logo-card-image p {
+  margin: 0;
+}
+
+.cards-logo .cards-logo-card-image picture {
+  display: block;
+}
+
+.cards-logo .cards-logo-card-image img {
+  display: block;
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  object-fit: contain;
+}
+
+.cards-logo .cards-logo-card-body:empty {
+  display: none;
+}
+
+@media (width >= 600px) {
+  .cards-logo > ul {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (width >= 900px) {
+  .cards-logo > ul {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}

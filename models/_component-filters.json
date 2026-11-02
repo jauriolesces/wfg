@@ -35,7 +35,11 @@
       "text",
       "title",
       "title-block",
-      "video"
+      "video",
+      "hero-split",
+      "columns-image-text",
+      "cards-icon",
+      "cards-logo"
     ]
   },
   {
@@ -61,6 +65,24 @@
       "title",
       "title-block",
       "video"
+    ]
+  },
+  {
+    "id": "columns-image-text",
+    "components": [
+      "column"
+    ]
+  },
+  {
+    "id": "cards-icon",
+    "components": [
+      "cards-icon-card"
+    ]
+  },
+  {
+    "id": "cards-logo",
+    "components": [
+      "cards-logo-card"
     ]
   }
 ]

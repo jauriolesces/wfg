@@ -1,0 +1,16 @@
+{
+  "type": "xwalk",
+  "sites": {
+    "wfg": {
+      "previewOrg": "jauriolesces",
+      "previewSite": "wfg",
+      "contentHostUrl": "author-p56818-e741270.adobeaemcloud.com",
+      "aemSitePath": "/content/WFG",
+      "aemAssetsFolderPath": "/content/dam/WFG",
+      "aemSiteName": "WFG",
+      "aemSiteTitle": "WFG",
+      "libraryUrl": "https://main--sta-xwalk-boilerplate--aemysites.aem.page/tools/sidekick/library.json",
+      "botProtected": true
+    }
+  }
+}

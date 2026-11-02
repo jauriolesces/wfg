@@ -1,0 +1,19 @@
+{
+  "variantName": "cards-logo",
+  "baseBlock": "cards",
+  "canonicalModel": "collection",
+  "visualCharacteristics": {
+    "purpose": "image-only partner/company logo grid",
+    "layout": "three logos per row on desktop, two on mobile, each centered in its cell",
+    "stylingNotes": "White section, logos centered with generous vertical padding, no text or links"
+  },
+  "contentPattern": {
+    "structure": "one row per logo: cell 1 logo image (alt text = company name); cell 2 text (left empty)",
+    "reason": "Repeating look-alike logo items in a flowing grid that wraps; count can vary",
+    "variantReason": "Image-only partner logo grid, three per row, centered, no text"
+  },
+  "options": [],
+  "memberVariantIds": [],
+  "usage": "Use for a row or grid of partner, carrier or client logos; put a heading above it as default content.",
+  "reuseGuidance": "Reuse for any image-only logo strip. Use cards-icon for tiles with text and links."
+}

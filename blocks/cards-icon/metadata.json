@@ -1,0 +1,19 @@
+{
+  "variantName": "cards-icon",
+  "baseBlock": "cards",
+  "canonicalModel": "collection",
+  "visualCharacteristics": {
+    "purpose": "row of padded colored tiles, each with a small line icon, heading, short description and a bottom-pinned link",
+    "layout": "three tiles per row on desktop, two on tablet, one on mobile; equal-height tiles with the link pinned to the bottom",
+    "stylingNotes": "White section; each tile has a sky-blue background, generous padding, black line icon; a tile may carry a footnote/tooltip disclosure after the text"
+  },
+  "contentPattern": {
+    "structure": "one row per card: cell 1 icon image; cell 2 text (heading, description, CTA link)",
+    "reason": "Repeating look-alike items (icon, title, text, link) that flow in a row and wrap on mobile",
+    "variantReason": "Padded colored tiles with a small line icon above heading, text and bottom-pinned link"
+  },
+  "options": [],
+  "memberVariantIds": [],
+  "usage": "Use for a set of feature/benefit tiles with an icon, heading, text and one link each.",
+  "reuseGuidance": "Reuse for any icon-led tile row. Use cards-logo for image-only logo grids and the base cards block for photo cards."
+}

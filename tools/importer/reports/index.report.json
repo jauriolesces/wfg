@@ -1,0 +1,18 @@
+{
+  "status": "success",
+  "url": "https://www.worldfinancialgroup.com/",
+  "path": "index",
+  "timestamp": "2026-11-02T18:12:12.783Z",
+  "title": "Homepage | World Financial Group, Inc.",
+  "template": "home",
+  "blocks": [
+    "hero-split",
+    "columns-image-text",
+    "columns-image-text",
+    "columns-image-text",
+    "columns-image-text",
+    "cards-icon",
+    "cards-logo",
+    "cards-logo"
+  ]
+}

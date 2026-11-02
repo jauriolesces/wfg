@@ -1,0 +1,122 @@
+/* hero-split: full-bleed split hero (copy + "umbrella"-cropped photo); band colour comes from the section style */
+main > .section > .hero-split-wrapper {
+  padding: 0;
+}
+
+.hero-split {
+  display: flex;
+  flex-direction: column;
+  color: var(--brand-text-color);
+}
+
+/* copy pane */
+.hero-split .hero-split-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 40px 30px;
+}
+
+.hero-split .hero-split-content h1 {
+  margin: 0;
+  font-family: var(--brand-heading-font-family);
+  font-size: var(--wfg-h1-size);
+  font-weight: 400;
+  line-height: var(--wfg-h1-line-height);
+  color: var(--brand-text-color);
+}
+
+.hero-split .hero-split-content p {
+  margin: 16px 0 0;
+  font-family: var(--brand-body-font-family);
+  font-size: var(--wfg-lead-size);
+  line-height: var(--wfg-lead-line-height);
+  color: var(--brand-text-color);
+}
+
+.hero-split .hero-split-content > :first-child {
+  margin-top: 0;
+}
+
+.hero-split .hero-split-content p.button-container {
+  display: flex;
+  margin: 16px 0 0;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+/* CTA: WFG primary pill (arrow + hover underline/nudge come from global button styles) */
+main .hero-split a.button:any-link {
+  padding: 10px 24px;
+  border: 2px solid var(--brand-dark-color);
+  border-radius: 24px;
+  background-color: var(--brand-dark-color);
+  color: var(--brand-light-text-color);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+}
+
+main .hero-split a.button:hover,
+main .hero-split a.button:focus {
+  color: var(--brand-light-text-color);
+}
+
+/* photo pane: image first on mobile, cropped by the pointed-top "umbrella" shape */
+.hero-split .hero-split-media {
+  position: relative;
+  order: -1;
+  aspect-ratio: 1.2 / 1;
+}
+
+.hero-split .hero-split-media > p {
+  margin: 0;
+}
+
+.hero-split .hero-split-media picture {
+  position: absolute;
+  inset: 0;
+  clip-path: polygon(50% 0%, 80% 19%, 100% 71%, 100% 100%, 0% 100%, -2% 74%, 19% 20%);
+}
+
+.hero-split .hero-split-media img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: 50% 50%;
+}
+
+@media (width >= 900px) {
+  .hero-split {
+    flex-direction: row;
+    align-items: stretch;
+  }
+
+  .hero-split .hero-split-content,
+  .hero-split .hero-split-media {
+    flex: 0 0 50%;
+    min-width: 0;
+  }
+
+  .hero-split .hero-split-content {
+    padding: 40px var(--wfg-gutter);
+  }
+
+  .hero-split .hero-split-content p.button-container {
+    margin-top: 32px;
+  }
+
+  .hero-split .hero-split-media {
+    order: 0;
+    aspect-ratio: auto;
+  }
+
+  .hero-split .hero-split-media picture {
+    left: var(--wfg-gutter);
+  }
+
+  .hero-split.hero-split-no-media .hero-split-content {
+    flex-basis: 100%;
+  }
+}

@@ -1,0 +1,59 @@
+/* World Financial Group brand tokens — extracted from www.worldfinancialgroup.com */
+:root {
+  /* fonts ("Forever Forma" is a licensed face not available here; the source stack falls back to Arial) */
+  --brand-body-font-family: "Forever Forma Body", arial, sans-serif;
+  --brand-heading-font-family: "Forever Forma Heading", arial, sans-serif;
+
+  /* colors */
+  --brand-text-color: rgb(40 24 5);
+  --brand-background-color: #fff;
+  --brand-link-color: rgb(40 24 5);
+  --brand-link-hover-color: rgb(40 24 5);
+  --brand-dark-color: rgb(40 24 5);
+  --brand-light-color: #fff;
+  --brand-light-text-color: #fff;
+  --brand-theme-color: rgb(40 24 5);
+  --brand-nav-background-color: rgb(40 24 5);
+  --brand-nav-text-color: #fff;
+  --brand-footer-background-color: rgb(40 24 5);
+  --brand-footer-text-color: #fff;
+  --wfg-sky-blue: rgb(99 182 255);
+  --wfg-grass-green: rgb(76 211 0);
+  --wfg-warm-grey: rgb(111 107 102);
+  --wfg-night-blue: rgb(29 37 80);
+
+  /* typography (mobile first) */
+  --wfg-h1-size: 32px;
+  --wfg-h1-line-height: 38.4px;
+  --wfg-h2-size: 32px;
+  --wfg-h2-line-height: 38.4px;
+  --wfg-h3-size: 24px;
+  --wfg-h3-line-height: 30px;
+  --wfg-body-size: 16px;
+  --wfg-body-line-height: 24px;
+  --wfg-copy-size: 18px;
+  --wfg-copy-line-height: 30px;
+  --wfg-lead-size: 22px;
+  --wfg-lead-line-height: 26px;
+
+  /* layout */
+  --wfg-content-max-width: 1440px;
+  --wfg-gutter: 18px;
+  --wfg-section-gap: 80px;
+}
+
+@media (width >= 900px) {
+  :root {
+    --wfg-h1-size: 60px;
+    --wfg-h1-line-height: 66px;
+    --wfg-h2-size: 36px;
+    --wfg-h2-line-height: 43.2px;
+    --wfg-h3-size: 28px;
+    --wfg-h3-line-height: 33.6px;
+    --wfg-copy-size: 20px;
+    --wfg-copy-line-height: 30px;
+    --wfg-lead-size: 24px;
+    --wfg-lead-line-height: 36px;
+    --wfg-gutter: min(5vw, 72px);
+  }
+}

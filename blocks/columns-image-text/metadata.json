@@ -1,0 +1,20 @@
+{
+  "variantName": "columns-image-text",
+  "baseBlock": "columns",
+  "canonicalModel": "standalone",
+  "visualCharacteristics": {
+    "purpose": "fixed two-part media + copy row (1/3 media, 2/3 copy) where the media side alternates",
+    "layout": "one row, two cells side by side on desktop, stacked on mobile; media cell may be empty and render as a CSS hexagon shape",
+    "stylingNotes": "White background by default; one instance sits on a grass-green (#4cd300) section band with an angled photo crop; empty media cell is a navy decorative shape",
+    "sectionStyle": "green (optional)"
+  },
+  "contentPattern": {
+    "structure": "one row with two cells: media cell (image, or empty for a decorative shape) and copy cell (H2, paragraphs, CTA link); cell order follows the source (image-left or image-right)",
+    "reason": "Fixed side-by-side text + image layout from the same image-text component used across the page; never wraps into a grid",
+    "variantReason": "Two-cell 1/3 media + 2/3 copy layout with hexagon/angled media crop; media side alternates; media may be a CSS shape only"
+  },
+  "options": [],
+  "memberVariantIds": [],
+  "usage": "Use for a single media + copy row: put the image (or leave the cell empty for a decorative shape) in one cell and the heading, text and link in the other. Swap cell order to move the media side.",
+  "reuseGuidance": "Reuse for any two-cell image/text row. Use the base columns block for evenly split multi-column grids."
+}

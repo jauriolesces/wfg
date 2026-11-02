@@ -1,0 +1,20 @@
+{
+  "variantName": "hero-split",
+  "baseBlock": "hero",
+  "canonicalModel": "standalone",
+  "visualCharacteristics": {
+    "purpose": "top-of-page split hero with copy on one half and a hexagon-cropped photo on the other",
+    "layout": "two panes side by side on desktop (text left, photo right), stacked on mobile",
+    "stylingNotes": "Solid sky-blue (#63b6ff) full-width band supplied by section style; photo cropped into a hexagon; dark pill CTA",
+    "sectionStyle": "sky-blue"
+  },
+  "contentPattern": {
+    "structure": "row 1: image (photo, alt text); row 2: text (H1 title, intro paragraph, CTA link)",
+    "reason": "Top-of-page H1 with prominent image and CTA, side-by-side split layout",
+    "variantReason": "Solid-color band with text half left and hexagon-cropped photo half right (not a full-bleed background photo)"
+  },
+  "options": [],
+  "memberVariantIds": [],
+  "usage": "Use as the first block on a page when the hero has a solid color band, H1, short intro, one CTA and a shaped photo beside the copy.",
+  "reuseGuidance": "Reuse for any split hero with a single image beside the copy. Use the base hero for full-bleed background-image heroes."
+}

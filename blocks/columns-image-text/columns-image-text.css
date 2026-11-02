@@ -1,0 +1,163 @@
+/* columns-image-text: WFG "sq-image-text" row: media cell (image or decorative shape) + copy cell */
+.columns-image-text {
+  min-height: 280px;
+  color: var(--brand-text-color);
+}
+
+/* the "green" section style puts the grass-green box on the block itself (content width, not full bleed) */
+main .section.green .columns-image-text {
+  background-color: var(--wfg-grass-green);
+}
+
+/* mobile: stacked, media always on top (source uses column-reverse for image-right rows) */
+.columns-image-text .columns-image-text-row {
+  display: flex;
+  flex-direction: column;
+  min-height: 280px;
+}
+
+.columns-image-text .columns-image-text-row.columns-image-text-media-right {
+  flex-direction: column-reverse;
+}
+
+/* copy cell */
+.columns-image-text .columns-image-text-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-width: 0;
+  padding: 24px;
+}
+
+/* image-right rows on a plain background align their copy to the content edge */
+.columns-image-text .columns-image-text-media-right .columns-image-text-content {
+  padding-left: 0;
+}
+
+main .section.green .columns-image-text .columns-image-text-media-right .columns-image-text-content {
+  padding-left: 24px;
+}
+
+.columns-image-text .columns-image-text-content h2 {
+  margin: 0 0 16px;
+  font-family: var(--brand-heading-font-family);
+  font-size: var(--wfg-h2-size);
+  font-weight: 400;
+  line-height: var(--wfg-h2-line-height);
+  color: var(--brand-text-color);
+}
+
+.columns-image-text .columns-image-text-content p {
+  margin: 0 0 18px;
+  font-family: var(--brand-body-font-family);
+  font-size: var(--wfg-copy-size);
+  line-height: var(--wfg-copy-line-height);
+  color: var(--brand-text-color);
+}
+
+/* description block: last paragraph has no bottom margin; the description keeps an 8px tail */
+.columns-image-text .columns-image-text-content > p:has(+ .button-container) {
+  margin-bottom: 0;
+}
+
+.columns-image-text .columns-image-text-content > p:last-child:not(.button-container) {
+  margin-bottom: 8px;
+}
+
+.columns-image-text .columns-image-text-content .button-container {
+  margin: 24px 0 0;
+}
+
+/* media cell */
+.columns-image-text .columns-image-text-media {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 0;
+}
+
+.columns-image-text .columns-image-text-media picture {
+  display: block;
+  width: 100%;
+}
+
+.columns-image-text .columns-image-text-media img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+/* empty media cell: navy "hexagon--right" shape */
+.columns-image-text .columns-image-text-shape {
+  aspect-ratio: 3 / 2;
+  background-color: var(--wfg-night-blue);
+  clip-path: polygon(0% 0%, 0% 100%, 100% 75%, 100% 25%);
+}
+
+/* green section: cover-cropped photo with an "octagon--left" angled crop */
+main .section.green .columns-image-text .columns-image-text-media {
+  aspect-ratio: 3 / 2;
+  overflow: hidden;
+  clip-path: polygon(60% 0%, 100% 0%, 100% 100%, 60% 100%, 0% 70%, 0% 30%);
+}
+
+main .section.green .columns-image-text .columns-image-text-media picture {
+  position: absolute;
+  inset: 0;
+  height: 100%;
+}
+
+main .section.green .columns-image-text .columns-image-text-media img {
+  height: 100%;
+  object-fit: cover;
+}
+
+@media (width >= 900px) {
+  .columns-image-text .columns-image-text-row,
+  .columns-image-text .columns-image-text-row.columns-image-text-media-right {
+    flex-direction: row;
+  }
+
+  .columns-image-text .columns-image-text-media {
+    flex: 0 0 calc(100% / 3);
+  }
+
+  .columns-image-text .columns-image-text-content {
+    flex: 0 0 calc(200% / 3);
+  }
+
+  .columns-image-text .columns-image-text-content p {
+    margin-bottom: 20px;
+  }
+
+  .columns-image-text .columns-image-text-content .button-container {
+    margin-top: 32px;
+  }
+
+  .columns-image-text .columns-image-text-shape,
+  main .section.green .columns-image-text .columns-image-text-media {
+    align-self: stretch;
+    aspect-ratio: auto;
+  }
+
+  /* green section rows split 1/2 - 1/2 */
+  main .section.green .columns-image-text .columns-image-text-media,
+  main .section.green .columns-image-text .columns-image-text-content {
+    flex-basis: 50%;
+  }
+}
+
+@media (width >= 1200px) {
+  .columns-image-text .columns-image-text-content {
+    padding: 32px;
+  }
+
+  .columns-image-text .columns-image-text-media-right .columns-image-text-content {
+    padding-left: 0;
+  }
+
+  main .section.green .columns-image-text .columns-image-text-media-right .columns-image-text-content {
+    padding-left: 32px;
+  }
+}
