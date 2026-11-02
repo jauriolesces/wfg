@@ -2,14 +2,35 @@
 const isDesktop = window.matchMedia('(width >= 900px)');
 
 /**
- * Fetches the nav fragment: /content first (local preview), then site root (DA/EDS).
+ * Candidate paths for a site fragment (nav/footer), most specific first.
+ * On AEM author pages (/content/<site>/...) the fragment is looked up from the current
+ * page's folder up to the site root; then /content (local preview) and the site root (EDS).
+ * @param {string} name fragment page name
+ * @returns {string[]} paths without extension
+ */
+function fragmentPaths(name) {
+  const paths = [];
+  const segments = window.location.pathname.split('/').slice(0, -1);
+  if (segments[1] === 'content' && segments.length > 2) {
+    for (let i = segments.length; i >= 3; i -= 1) paths.push(`${segments.slice(0, i).join('/')}/${name}`);
+  }
+  paths.push(`/content/${name}`, `/${name}`);
+  return paths;
+}
+
+/**
+ * Fetches the nav fragment from the first candidate path that exists.
  * @returns {Promise<{html: string, base: string}|null>} nav fragment HTML and its URL
  */
 async function fetchNavHtml() {
-  let resp = await fetch('/content/nav.plain.html');
-  if (!resp.ok) resp = await fetch('/nav.plain.html');
-  if (!resp.ok) return null;
-  return { html: await resp.text(), base: resp.url };
+  // eslint-disable-next-line no-restricted-syntax
+  for (const path of fragmentPaths('nav')) {
+    // eslint-disable-next-line no-await-in-loop
+    const resp = await fetch(`${path}.plain.html`);
+    // eslint-disable-next-line no-await-in-loop
+    if (resp.ok) return { html: await resp.text(), base: resp.url };
+  }
+  return null;
 }
 
 /**

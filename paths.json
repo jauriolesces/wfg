@@ -1,19 +1,10 @@
 {
   "mappings": [
-    "/content/WFG/language-masters/en:/",
-    "/content/WFG/language-masters/en/:/en/",
-    "/content/WFG/language-masters/fr/:/fr/",
-    "/content/WFG/language-masters/fr:/fr",
-    "/content/WFG/language-masters/es/:/es/",
-    "/content/WFG/language-masters/es:/es",
-    "/content/WFG/language-masters/ja/:/ja/",
-    "/content/WFG/language-masters/ja:/ja",
-    "/content/WFG/language-masters/de/:/de/",
-    "/content/WFG/language-masters/de:/de",
     "/content/WFG/configuration:/.helix/config.json",
     "/content/WFG/metadata:/metadata.json",
     "/content/WFG/redirects:/redirects.json",
-    "/content/WFG/placeholders:/placeholders.json"
+    "/content/WFG/placeholders:/placeholders.json",
+    "/content/WFG/:/"
   ],
   "includes": [
     "/content/WFG/",
