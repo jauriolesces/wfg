@@ -41,7 +41,7 @@ async function fetchNavHtml() {
 function resolveImages(root, base) {
   root.querySelectorAll('img[src]').forEach((img) => {
     const src = img.getAttribute('src');
-    if (!/^(https?:|data:|\/)/.test(src)) img.src = new URL(src, base).href;
+    if (!/^(https?:|data:|\/)/.test(src)) img.src = new URL(src, base || window.location.href).href;
   });
 }
 
@@ -159,6 +159,11 @@ function buildSections(section, nav) {
   const list = section.querySelector(':scope > ul');
   if (!list) return sections;
   list.querySelectorAll(':scope > li').forEach((li, i) => {
+    // AEM delivers list items as <li><p><a>…</a></p></li>; unwrap link-only paragraphs
+    li.querySelectorAll(':scope > p').forEach((p) => {
+      const link = p.querySelector(':scope > a');
+      if (link && p.textContent.trim() === link.textContent.trim()) p.replaceWith(link);
+    });
     const sub = li.querySelector(':scope > ul');
     if (!sub) return;
     li.classList.add('nav-drop');

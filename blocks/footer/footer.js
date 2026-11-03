@@ -38,7 +38,7 @@ async function fetchFooterHtml() {
 function resolveImages(root, base) {
   root.querySelectorAll('img[src]').forEach((img) => {
     const src = img.getAttribute('src');
-    if (!/^(https?:|data:|\/)/.test(src)) img.src = new URL(src, base).href;
+    if (!/^(https?:|data:|\/)/.test(src)) img.src = new URL(src, base || window.location.href).href;
   });
 }
 
