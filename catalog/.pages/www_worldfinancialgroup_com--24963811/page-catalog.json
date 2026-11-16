@@ -1,0 +1,574 @@
+{
+  "url": "https://www.worldfinancialgroup.com/",
+  "title": "Homepage | World Financial Group, Inc.",
+  "timestamp": "2026-11-02T17:52:21.272Z",
+  "duration": "9.2s",
+  "cleanup": {
+    "elementsRemoved": 8,
+    "types": [
+      "overlay",
+      "cookie-banner",
+      "popup"
+    ],
+    "cookieConsentDismissed": true,
+    "lateConsentOverlaysRemoved": 0
+  },
+  "skeleton": {
+    "signature": "sB(s(sB,s(2x1B,2x1(s,s(,)),3x1,2x1(s,s(,),s),s(s,s),3x1,s(s,s),3x1,s(s,s),2x1B,2x1,s)),s)",
+    "nodeMap": {
+      "r": "body",
+      "rc1": "body > div.dialog-off-canvas-main-canvas",
+      "rc1c1": "body > div.dialog-off-canvas-main-canvas > div.layout-container.color-contrasting-warm-black.color-vibrant-white > div.region.region-highlighted",
+      "rc1c2": "#main-content",
+      "rc1c2c1": "#s-banner",
+      "rc1c2c2": "#block-wfg-content > article.node.node--type-component-page.node--promoted.node--view-mode-full > div.node__content > div.layout.onecol-layout.hide_if_empty.bg-color--.bottom-margin--default.grid-container:nth-of-type(2)",
+      "rc1c2c2c1": "#pursue-financial-security",
+      "rc1c2c2c2": "#block-wfg-content > article.node.node--type-component-page.node--promoted.node--view-mode-full > div.node__content > div.layout.onecol-layout.hide_if_empty.bg-color--.bottom-margin--default.grid-container:nth-of-type(2) > div.layout__region.layout__row.layout__region--first > div.block.block--layout-builder.block--inline-blockimage-text.block--image-text > div.organism--sq-image-text.default.image-left.grid-x.mh-280 > div.right.cell.xsmall-12.medium-8.copy.flex-container.align-middle.p-6.xlarge-p-8 > div.molecule--sq-copy > div.description.nmblc.mt-4.body-l",
+      "rc1c2c2c2c1": "#block-wfg-content > article.node.node--type-component-page.node--promoted.node--view-mode-full > div.node__content > div.layout.onecol-layout.hide_if_empty.bg-color--.bottom-margin--default.grid-container:nth-of-type(2) > div.layout__region.layout__row.layout__region--first > div.block.block--layout-builder.block--inline-blockimage-text.block--image-text > div.organism--sq-image-text.default.image-left.grid-x.mh-280 > div.right.cell.xsmall-12.medium-8.copy.flex-container.align-middle.p-6.xlarge-p-8 > div.molecule--sq-copy > div.description.nmblc.mt-4.body-l > div.content > div.clearfix.text-formatted.field.field--name-field-description.field--type-text-long.field--label-hidden.item-count-1.field__item > p:nth-of-type(1)",
+      "rc1c2c2c2c2": "#block-wfg-content > article.node.node--type-component-page.node--promoted.node--view-mode-full > div.node__content > div.layout.onecol-layout.hide_if_empty.bg-color--.bottom-margin--default.grid-container:nth-of-type(2) > div.layout__region.layout__row.layout__region--first > div.block.block--layout-builder.block--inline-blockimage-text.block--image-text > div.organism--sq-image-text.default.image-left.grid-x.mh-280 > div.right.cell.xsmall-12.medium-8.copy.flex-container.align-middle.p-6.xlarge-p-8 > div.molecule--sq-copy > div.description.nmblc.mt-4.body-l > div.content > div.clearfix.text-formatted.field.field--name-field-description.field--type-text-long.field--label-hidden.item-count-1.field__item > p:nth-of-type(2)",
+      "rc1c2c3": "#block-wfg-content > article.node.node--type-component-page.node--promoted.node--view-mode-full > div.node__content > div.layout.threecol-layout.hide_if_empty.bg-color--.bottom-margin--default.grid-container",
+      "rc1c2c4": "#block-wfg-content > article.node.node--type-component-page.node--promoted.node--view-mode-full > div.node__content > div.layout.onecol-layout.hide_if_empty.bg-color--.bottom-margin--default.grid-container:nth-of-type(4)",
+      "rc1c2c4c1": "#strategies-for-every-season-in-life",
+      "rc1c2c4c2": "#block-wfg-content > article.node.node--type-component-page.node--promoted.node--view-mode-full > div.node__content > div.layout.onecol-layout.hide_if_empty.bg-color--.bottom-margin--default.grid-container:nth-of-type(4) > div.layout__region.layout__row.layout__region--first > div.block.block--layout-builder.block--inline-blockimage-text.block--image-text > div.organism--sq-image-text.default.image-right.flex-dir-column-reverse.medium-flex-dir-row.grid-x.mh-280 > div.left.cell.xsmall-12.medium-8.copy.flex-container.align-middle.p-6.xlarge-p-8 > div.molecule--sq-copy > div.description.nmblc.mt-4.body-l",
+      "rc1c2c4c2c1": "#block-wfg-content > article.node.node--type-component-page.node--promoted.node--view-mode-full > div.node__content > div.layout.onecol-layout.hide_if_empty.bg-color--.bottom-margin--default.grid-container:nth-of-type(4) > div.layout__region.layout__row.layout__region--first > div.block.block--layout-builder.block--inline-blockimage-text.block--image-text > div.organism--sq-image-text.default.image-right.flex-dir-column-reverse.medium-flex-dir-row.grid-x.mh-280 > div.left.cell.xsmall-12.medium-8.copy.flex-container.align-middle.p-6.xlarge-p-8 > div.molecule--sq-copy > div.description.nmblc.mt-4.body-l > p:nth-of-type(1)",
+      "rc1c2c4c2c2": "#block-wfg-content > article.node.node--type-component-page.node--promoted.node--view-mode-full > div.node__content > div.layout.onecol-layout.hide_if_empty.bg-color--.bottom-margin--default.grid-container:nth-of-type(4) > div.layout__region.layout__row.layout__region--first > div.block.block--layout-builder.block--inline-blockimage-text.block--image-text > div.organism--sq-image-text.default.image-right.flex-dir-column-reverse.medium-flex-dir-row.grid-x.mh-280 > div.left.cell.xsmall-12.medium-8.copy.flex-container.align-middle.p-6.xlarge-p-8 > div.molecule--sq-copy > div.description.nmblc.mt-4.body-l > p:nth-of-type(2)",
+      "rc1c2c4c3": "#block-wfg-content > article.node.node--type-component-page.node--promoted.node--view-mode-full > div.node__content > div.layout.onecol-layout.hide_if_empty.bg-color--.bottom-margin--default.grid-container:nth-of-type(4) > div.layout__region.layout__row.layout__region--first > div.block.block--layout-builder.block--inline-blockimage-text.block--image-text > div.organism--sq-image-text.default.image-right.flex-dir-column-reverse.medium-flex-dir-row.grid-x.mh-280 > div.left.cell.xsmall-12.medium-8.copy.flex-container.align-middle.p-6.xlarge-p-8 > div.molecule--sq-copy > div.links.p.mt-6.medium-mt-8",
+      "rc1c2c5": "#block-wfg-content > article.node.node--type-component-page.node--promoted.node--view-mode-full > div.node__content > div.layout.onecol-layout.hide_if_empty.bg-color--.bottom-margin--none.grid-container:nth-of-type(5)",
+      "rc1c2c5c1": "#block-wfg-content > article.node.node--type-component-page.node--promoted.node--view-mode-full > div.node__content > div.layout.onecol-layout.hide_if_empty.bg-color--.bottom-margin--none.grid-container:nth-of-type(5) > div.layout__region.layout__row.layout__region--first > div.block.block--layout-builder.block--inline-blocktext.block--text > div.scheduling-overlay",
+      "rc1c2c5c2": "#block-wfg-content > article.node.node--type-component-page.node--promoted.node--view-mode-full > div.node__content > div.layout.onecol-layout.hide_if_empty.bg-color--.bottom-margin--none.grid-container:nth-of-type(5) > div.layout__region.layout__row.layout__region--first > div.block.block--layout-builder.block--inline-blocktext.block--text > div.organism--sq-text.grid-x",
+      "rc1c2c6": "#block-wfg-content > article.node.node--type-component-page.node--promoted.node--view-mode-full > div.node__content > div.layout.flexcol-layout.hide_if_empty.bg-color--.bottom-margin--none.grid-container:nth-of-type(6)",
+      "rc1c2c7": "#block-wfg-content > article.node.node--type-component-page.node--promoted.node--view-mode-full > div.node__content > div.layout.onecol-layout.hide_if_empty.bg-color--.bottom-margin--none.grid-container:nth-of-type(8)",
+      "rc1c2c7c1": "#block-wfg-content > article.node.node--type-component-page.node--promoted.node--view-mode-full > div.node__content > div.layout.onecol-layout.hide_if_empty.bg-color--.bottom-margin--none.grid-container:nth-of-type(8) > div.layout__region.layout__row.layout__region--first > div.block.block--layout-builder.block--inline-blocktext.block--text > div.scheduling-overlay",
+      "rc1c2c7c2": "#block-wfg-content > article.node.node--type-component-page.node--promoted.node--view-mode-full > div.node__content > div.layout.onecol-layout.hide_if_empty.bg-color--.bottom-margin--none.grid-container:nth-of-type(8) > div.layout__region.layout__row.layout__region--first > div.block.block--layout-builder.block--inline-blocktext.block--text > div.organism--sq-text.grid-x",
+      "rc1c2c8": "#block-wfg-content > article.node.node--type-component-page.node--promoted.node--view-mode-full > div.node__content > div.layout.flexcol-layout.hide_if_empty.bg-color--.bottom-margin--none.grid-container:nth-of-type(9)",
+      "rc1c2c9": "#block-wfg-content > article.node.node--type-component-page.node--promoted.node--view-mode-full > div.node__content > div.layout.onecol-layout.hide_if_empty.bg-color--.bottom-margin--default.grid-container:nth-of-type(10)",
+      "rc1c2c9c1": "#block-wfg-content > article.node.node--type-component-page.node--promoted.node--view-mode-full > div.node__content > div.layout.onecol-layout.hide_if_empty.bg-color--.bottom-margin--default.grid-container:nth-of-type(10) > div.layout__region.layout__row.layout__region--first > div.block.block--layout-builder.block--inline-blocktext.block--text > div.scheduling-overlay",
+      "rc1c2c9c2": "#block-wfg-content > article.node.node--type-component-page.node--promoted.node--view-mode-full > div.node__content > div.layout.onecol-layout.hide_if_empty.bg-color--.bottom-margin--default.grid-container:nth-of-type(10) > div.layout__region.layout__row.layout__region--first > div.block.block--layout-builder.block--inline-blocktext.block--text > div.organism--sq-text.grid-x",
+      "rc1c2c10": "#block-wfg-content > article.node.node--type-component-page.node--promoted.node--view-mode-full > div.node__content > div.layout.onecol-layout.hide_if_empty.bg-color--.bottom-margin--default.grid-container:nth-of-type(11)",
+      "rc1c2c11": "#block-wfg-content > article.node.node--type-component-page.node--promoted.node--view-mode-full > div.node__content > div.layout.onecol-layout.hide_if_empty.bg-color--.bottom-margin--default.grid-container:nth-of-type(12)",
+      "rc1c2c12": "#block-wfg-content > article.node.node--type-component-page.node--promoted.node--view-mode-full > div.node__content > div.layout.onecol-layout.hide_if_empty.bg-color--.bottom-margin--default.grid-container:nth-of-type(13)",
+      "rc2": "#addtoany"
+    },
+    "sections": [
+      {
+        "id": "rc1",
+        "selector": "body > div.dialog-off-canvas-main-canvas > div.layout-container.color-contrasting-warm-black.color-vibrant-white > div.region.region-highlighted",
+        "layout": null,
+        "hasBg": true,
+        "hint": "default-content",
+        "background": "#6f6b66",
+        "backgroundImage": null,
+        "colored": true,
+        "paintSelector": "#block-wfg-trustpilotwidget > div.organism--trustpilot"
+      },
+      {
+        "id": "rc2",
+        "selector": "#s-banner",
+        "layout": "2x1",
+        "hasBg": true,
+        "hint": "block",
+        "background": "#63b6ff",
+        "backgroundImage": null,
+        "colored": true,
+        "paintSelector": "#s-banner > div > div.block.block--layout-builder.block--inline-blockhero-banner.block--hero-banner > div.organism--hero.variation--default.bg-color-vibrant-sky-blue.vibrant.position-relative"
+      },
+      {
+        "id": "rc3",
+        "selector": "#block-wfg-content > article.node.node--type-component-page.node--promoted.node--view-mode-full > div.node__content > div.layout.onecol-layout.hide_if_empty.bg-color--.bottom-margin--default.grid-container:nth-of-type(2)",
+        "layout": "2x1",
+        "hasBg": false,
+        "hint": "block",
+        "background": "#ffffff",
+        "backgroundImage": null,
+        "colored": false,
+        "paintSelector": null
+      },
+      {
+        "id": "rc4",
+        "selector": "#block-wfg-content > article.node.node--type-component-page.node--promoted.node--view-mode-full > div.node__content > div.layout.threecol-layout.hide_if_empty.bg-color--.bottom-margin--default.grid-container",
+        "layout": "3x1",
+        "hasBg": false,
+        "hint": "block",
+        "background": "#ffffff",
+        "backgroundImage": null,
+        "colored": false,
+        "paintSelector": null
+      },
+      {
+        "id": "rc5",
+        "selector": "#block-wfg-content > article.node.node--type-component-page.node--promoted.node--view-mode-full > div.node__content > div.layout.onecol-layout.hide_if_empty.bg-color--.bottom-margin--default.grid-container:nth-of-type(4)",
+        "layout": "2x1",
+        "hasBg": false,
+        "hint": "block",
+        "background": "#ffffff",
+        "backgroundImage": null,
+        "colored": false,
+        "paintSelector": null
+      },
+      {
+        "id": "rc6",
+        "selector": "#block-wfg-content > article.node.node--type-component-page.node--promoted.node--view-mode-full > div.node__content > div.layout.onecol-layout.hide_if_empty.bg-color--.bottom-margin--none.grid-container:nth-of-type(5)",
+        "layout": null,
+        "hasBg": false,
+        "hint": "default-content",
+        "background": "#ffffff",
+        "backgroundImage": null,
+        "colored": false,
+        "paintSelector": null
+      },
+      {
+        "id": "rc7",
+        "selector": "#block-wfg-content > article.node.node--type-component-page.node--promoted.node--view-mode-full > div.node__content > div.layout.flexcol-layout.hide_if_empty.bg-color--.bottom-margin--none.grid-container:nth-of-type(6)",
+        "layout": "3x1",
+        "hasBg": false,
+        "hint": "block",
+        "background": "#ffffff",
+        "backgroundImage": null,
+        "colored": false,
+        "paintSelector": null
+      },
+      {
+        "id": "rc8",
+        "selector": "#block-wfg-content > article.node.node--type-component-page.node--promoted.node--view-mode-full > div.node__content > div.layout.onecol-layout.hide_if_empty.bg-color--.bottom-margin--none.grid-container:nth-of-type(8)",
+        "layout": null,
+        "hasBg": false,
+        "hint": "default-content",
+        "background": "#ffffff",
+        "backgroundImage": null,
+        "colored": false,
+        "paintSelector": null
+      },
+      {
+        "id": "rc9",
+        "selector": "#block-wfg-content > article.node.node--type-component-page.node--promoted.node--view-mode-full > div.node__content > div.layout.flexcol-layout.hide_if_empty.bg-color--.bottom-margin--none.grid-container:nth-of-type(9)",
+        "layout": "3x1",
+        "hasBg": false,
+        "hint": "block",
+        "background": "#ffffff",
+        "backgroundImage": null,
+        "colored": false,
+        "paintSelector": null
+      },
+      {
+        "id": "rc10",
+        "selector": "#block-wfg-content > article.node.node--type-component-page.node--promoted.node--view-mode-full > div.node__content > div.layout.onecol-layout.hide_if_empty.bg-color--.bottom-margin--default.grid-container:nth-of-type(10)",
+        "layout": null,
+        "hasBg": false,
+        "hint": "default-content",
+        "background": "#ffffff",
+        "backgroundImage": null,
+        "colored": false,
+        "paintSelector": null
+      },
+      {
+        "id": "rc11",
+        "selector": "#block-wfg-content > article.node.node--type-component-page.node--promoted.node--view-mode-full > div.node__content > div.layout.onecol-layout.hide_if_empty.bg-color--.bottom-margin--default.grid-container:nth-of-type(11)",
+        "layout": "2x1",
+        "hasBg": true,
+        "hint": "block",
+        "background": "#4cd300",
+        "backgroundImage": null,
+        "colored": true,
+        "paintSelector": "#block-wfg-content > article.node.node--type-component-page.node--promoted.node--view-mode-full > div.node__content > div.layout.onecol-layout.hide_if_empty.bg-color--.bottom-margin--default.grid-container:nth-of-type(11) > div.layout__region.layout__row.layout__region--first > div.block.block--layout-builder.block--inline-blockimage-text.block--image-text > div.organism--sq-image-text.default.image-right.flex-dir-column-reverse.medium-flex-dir-row.bg-color-vibrant-grass-green.grid-x.mh-280"
+      },
+      {
+        "id": "rc12",
+        "selector": "#block-wfg-content > article.node.node--type-component-page.node--promoted.node--view-mode-full > div.node__content > div.layout.onecol-layout.hide_if_empty.bg-color--.bottom-margin--default.grid-container:nth-of-type(12)",
+        "layout": "2x1",
+        "hasBg": false,
+        "hint": "block",
+        "background": "#ffffff",
+        "backgroundImage": null,
+        "colored": false,
+        "paintSelector": null
+      },
+      {
+        "id": "rc13",
+        "selector": "#block-wfg-content > article.node.node--type-component-page.node--promoted.node--view-mode-full > div.node__content > div.layout.onecol-layout.hide_if_empty.bg-color--.bottom-margin--default.grid-container:nth-of-type(13)",
+        "layout": null,
+        "hasBg": false,
+        "hint": "default-content",
+        "background": "#ffffff",
+        "backgroundImage": null,
+        "colored": false,
+        "paintSelector": null
+      },
+      {
+        "id": "rc14",
+        "selector": "#addtoany",
+        "layout": null,
+        "hasBg": false,
+        "hint": "default-content",
+        "background": "#ffffff",
+        "backgroundImage": null,
+        "colored": false,
+        "paintSelector": null
+      }
+    ],
+    "invalidIgnore": []
+  },
+  "pageLayout": {
+    "box": {
+      "y": 200,
+      "height": 3871.625
+    },
+    "splits": [
+      {
+        "selector": "div.organism--sq-image-text.default > div.left.cell",
+        "sides": [
+          [
+            0,
+            0.3333333333333333
+          ]
+        ],
+        "top": 768,
+        "bottom": 1189.1875,
+        "cover": 0.10878829948664966,
+        "above": 1
+      },
+      {
+        "selector": "div.organism--sq-image-text.default > div.right.cell",
+        "sides": [
+          [
+            0.6666666666666666,
+            1
+          ]
+        ],
+        "top": 1835.5625,
+        "bottom": 2208.75,
+        "cover": 0.09639040454589481,
+        "above": 3
+      },
+      {
+        "selector": "div.organism--sq-image-text.default > div.left.cell",
+        "sides": [
+          [
+            0,
+            0.3333333333333333
+          ]
+        ],
+        "top": 3711.625,
+        "bottom": 3991.625,
+        "cover": 0.07232105382106996,
+        "above": 7
+      }
+    ],
+    "start": {
+      "kind": "repeated cards"
+    }
+  },
+  "blocks": [
+    {
+      "id": "ad6fefa6490e",
+      "type": "unknown",
+      "selector": "body > div.dialog-off-canvas-main-canvas > div > div",
+      "bounds": {
+        "x": 0,
+        "y": 160,
+        "width": 1440,
+        "height": 40
+      },
+      "visualChars": {
+        "colorScheme": "dark",
+        "density": "minimal",
+        "imagePattern": "noimg",
+        "hasGrid": false,
+        "structure": "video"
+      },
+      "description": "region",
+      "features": {
+        "skeleton": "iframe",
+        "variant": "iframe",
+        "variantClean": "iframe"
+      },
+      "screenshot": "blocks/ad6fefa6490e.jpg"
+    },
+    {
+      "id": "4d4ad85f97c5",
+      "type": "columns",
+      "selector": "#s-banner",
+      "bounds": {
+        "x": 0,
+        "y": 200,
+        "width": 1440,
+        "height": 488
+      },
+      "visualChars": {
+        "colorScheme": "light",
+        "density": "moderate",
+        "imagePattern": "noimg",
+        "hasGrid": true,
+        "structure": "heading + text + link + image"
+      },
+      "description": "layout",
+      "features": {
+        "skeleton": "[T]",
+        "variant": "[Tow|T]",
+        "variantClean": "[Tk|T]"
+      },
+      "screenshot": "blocks/4d4ad85f97c5.jpg"
+    },
+    {
+      "id": "9d04072f3b60",
+      "type": "columns",
+      "selector": "#block-wfg-content > article > div > div:nth-child(2)",
+      "bounds": {
+        "x": 0,
+        "y": 768,
+        "width": 1440,
+        "height": 421
+      },
+      "visualChars": {
+        "colorScheme": "light",
+        "density": "minimal",
+        "imagePattern": "noimg",
+        "hasGrid": true,
+        "structure": "heading + text"
+      },
+      "description": "layout",
+      "features": {
+        "skeleton": "[~|T*2]",
+        "variant": "[~b|To*2]",
+        "variantClean": "[~b|Tk*2]"
+      },
+      "screenshot": "blocks/9d04072f3b60.jpg"
+    },
+    {
+      "id": "bf5fbfe106e5",
+      "type": "cards",
+      "selector": "#block-wfg-content > article > div > div.layout.threecol-layout.hide_if_empty.bg-color--.bottom-margin--default.grid-container",
+      "bounds": {
+        "x": 0,
+        "y": 1257,
+        "width": 1440,
+        "height": 510
+      },
+      "visualChars": {
+        "colorScheme": "light",
+        "density": "moderate",
+        "imagePattern": "noimg",
+        "hasGrid": true,
+        "structure": "image + heading + text + link"
+      },
+      "description": "layout",
+      "features": {
+        "skeleton": "[~(T)]",
+        "variant": "[~b(To)|~b(Tow)]",
+        "variantClean": "[~b(Tk)|~b(Tw)]",
+        "set": true
+      },
+      "screenshot": "blocks/bf5fbfe106e5.jpg"
+    },
+    {
+      "id": "b6119442f81b",
+      "type": "columns",
+      "selector": "#block-wfg-content > article > div > div:nth-child(4)",
+      "bounds": {
+        "x": 0,
+        "y": 1836,
+        "width": 1440,
+        "height": 373
+      },
+      "visualChars": {
+        "colorScheme": "light",
+        "density": "moderate",
+        "imagePattern": "noimg",
+        "hasGrid": true,
+        "structure": "heading + text + link + image"
+      },
+      "description": "layout",
+      "features": {
+        "skeleton": "[T*2|T]",
+        "variant": "[To*2|T]",
+        "variantClean": "[Tk*2|T]"
+      },
+      "screenshot": "blocks/b6119442f81b.jpg"
+    },
+    {
+      "id": "ace97eea5c77",
+      "type": "default-content",
+      "selector": "#block-wfg-content > article > div > div:nth-child(5)",
+      "bounds": {
+        "x": 0,
+        "y": 2289,
+        "width": 1440,
+        "height": 51
+      },
+      "visualChars": {
+        "colorScheme": "light",
+        "density": "minimal",
+        "imagePattern": "noimg",
+        "hasGrid": false,
+        "structure": "heading"
+      },
+      "description": "layout",
+      "features": {
+        "skeleton": "T",
+        "variant": "To",
+        "variantClean": "Tk"
+      },
+      "screenshot": null
+    },
+    {
+      "id": "2c9371b4df47",
+      "type": "cards",
+      "selector": "#block-wfg-content > article > div > div:nth-child(6)",
+      "bounds": {
+        "x": 0,
+        "y": 2340,
+        "width": 1440,
+        "height": 347
+      },
+      "visualChars": {
+        "colorScheme": "light",
+        "density": "minimal",
+        "imagePattern": "noimg",
+        "hasGrid": true,
+        "structure": "image"
+      },
+      "description": "layout",
+      "features": {
+        "skeleton": "[T]",
+        "variant": "[T]",
+        "variantClean": "[T]",
+        "set": true
+      },
+      "screenshot": "blocks/2c9371b4df47.jpg"
+    },
+    {
+      "id": "103fb4efc876",
+      "type": "default-content",
+      "selector": "#block-wfg-content > article > div > div:nth-child(8)",
+      "bounds": {
+        "x": 0,
+        "y": 2687,
+        "width": 1440,
+        "height": 51
+      },
+      "visualChars": {
+        "colorScheme": "light",
+        "density": "minimal",
+        "imagePattern": "noimg",
+        "hasGrid": false,
+        "structure": "heading"
+      },
+      "description": "layout",
+      "features": {
+        "skeleton": "T",
+        "variant": "To",
+        "variantClean": "Tk"
+      },
+      "screenshot": null
+    },
+    {
+      "id": "d8b2962b57d5",
+      "type": "cards",
+      "selector": "#block-wfg-content > article > div > div:nth-child(9)",
+      "bounds": {
+        "x": 0,
+        "y": 2738,
+        "width": 1440,
+        "height": 347
+      },
+      "visualChars": {
+        "colorScheme": "light",
+        "density": "minimal",
+        "imagePattern": "noimg",
+        "hasGrid": true,
+        "structure": "image"
+      },
+      "description": "layout",
+      "features": {
+        "skeleton": "[T]",
+        "variant": "[T]",
+        "variantClean": "[T]",
+        "set": true
+      },
+      "screenshot": "blocks/d8b2962b57d5.jpg"
+    },
+    {
+      "id": "cc93fd9694c7",
+      "type": "default-content",
+      "selector": "#block-wfg-content > article > div > div:nth-child(10)",
+      "bounds": {
+        "x": 0,
+        "y": 3084,
+        "width": 1440,
+        "height": 84
+      },
+      "visualChars": {
+        "colorScheme": "light",
+        "density": "minimal",
+        "imagePattern": "noimg",
+        "hasGrid": false,
+        "structure": "text"
+      },
+      "description": "layout",
+      "features": {
+        "skeleton": "T",
+        "variant": "To",
+        "variantClean": "Tk"
+      },
+      "screenshot": null
+    },
+    {
+      "id": "b5b322a0c343",
+      "type": "columns",
+      "selector": "#block-wfg-content > article > div > div:nth-child(11)",
+      "bounds": {
+        "x": 0,
+        "y": 3248,
+        "width": 1440,
+        "height": 383
+      },
+      "visualChars": {
+        "colorScheme": "light",
+        "density": "moderate",
+        "imagePattern": "noimg",
+        "hasGrid": true,
+        "structure": "heading + text + link + image"
+      },
+      "description": "layout",
+      "features": {
+        "skeleton": "[T]",
+        "variant": "[To|T]",
+        "variantClean": "[Tk|T]"
+      },
+      "screenshot": "blocks/b5b322a0c343.jpg"
+    },
+    {
+      "id": "c327790e5057",
+      "type": "columns",
+      "selector": "#block-wfg-content > article > div > div:nth-child(12)",
+      "bounds": {
+        "x": 0,
+        "y": 3712,
+        "width": 1440,
+        "height": 280
+      },
+      "visualChars": {
+        "colorScheme": "light",
+        "density": "moderate",
+        "imagePattern": "noimg",
+        "hasGrid": true,
+        "structure": "image + heading + text + link"
+      },
+      "description": "layout",
+      "features": {
+        "skeleton": "[T|T*2]",
+        "variant": "[T|To*2]",
+        "variantClean": "[T|Tk*2]"
+      },
+      "screenshot": "blocks/c327790e5057.jpg"
+    }
+  ],
+  "globalElements": {
+    "header": {
+      "selector": "div.layout-container.color-contrasting-warm-black > header:nth-child(1)"
+    },
+    "footer": {
+      "selector": "div.layout-container.color-contrasting-warm-black > footer:nth-child(4)"
+    },
+    "isFirstCapture": true
+  }
+}

@@ -4,3 +4,4 @@ README.md merge=ours
 
 # Automation workflows
 .github/workflows/* merge=ours
+catalog/**/*.jpg filter=lfs diff=lfs merge=lfs -text
