@@ -1,0 +1,19 @@
+{
+  "variantName": "cards-press",
+  "baseBlock": "cards",
+  "canonicalModel": "collection",
+  "visualCharacteristics": {
+    "purpose": "list of press-release cards, each with a photo, headline, teaser and a link to the full release",
+    "layout": "three cards per row on desktop, two on tablet, one on mobile; equal-height cards with the link pinned to the bottom",
+    "stylingNotes": "White section; borderless cards with no tile background: full-width 4:3 photo, H3 headline, teaser paragraph, bottom-pinned tertiary 'Read the press release' text link with arrow"
+  },
+  "contentPattern": {
+    "structure": "one row per card: cell 1 image (4:3 photo); cell 2 text (H3 headline, teaser paragraph, CTA link)",
+    "reason": "Repeating look-alike items that flow and wrap (3/2/1 per row) and each link to a detail page: a dynamic list, so Cards",
+    "variantReason": "Borderless press/news cards: full-width 4:3 photo on top, H3 headline, teaser paragraph and a bottom-pinned tertiary text link with arrow, on white. Differs from cards-icon (small line icon in padded sky-blue tile) and cards-logo (image-only logos)"
+  },
+  "options": [],
+  "memberVariantIds": [],
+  "usage": "Use for press-release, news or article listings where each card has a photo, headline, teaser and one link to the detail page.",
+  "reuseGuidance": "Reuse for any photo-led article/news card list. Use cards-icon for icon tiles on a colored background and cards-logo for image-only logo grids."
+}

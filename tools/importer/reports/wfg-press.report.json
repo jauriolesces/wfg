@@ -1,0 +1,13 @@
+{
+  "status": "success",
+  "url": "https://www.worldfinancialgroup.com/wfg-press",
+  "path": "wfg-press",
+  "timestamp": "2026-11-16T22:32:03.389Z",
+  "title": "WFG press | World Financial Group, Inc.",
+  "template": "press",
+  "blocks": [
+    "hero-split",
+    "cards-press"
+  ],
+  "importScript": "f8aed4bcd647"
+}

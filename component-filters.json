@@ -39,7 +39,8 @@
       "hero-split",
       "columns-image-text",
       "cards-icon",
-      "cards-logo"
+      "cards-logo",
+      "cards-press"
     ]
   },
   {
@@ -83,6 +84,12 @@
     "id": "cards-logo",
     "components": [
       "cards-logo-card"
+    ]
+  },
+  {
+    "id": "cards-press",
+    "components": [
+      "cards-press-card"
     ]
   }
 ]

@@ -1,0 +1,672 @@
+{
+  "schemaVersion": 2,
+  "url": "https://www.worldfinancialgroup.com/wfg-press",
+  "title": "WFG press | World Financial Group, Inc.",
+  "timestamp": "2026-11-16T22:17:58.663Z",
+  "duration": "7.9s",
+  "cleanup": {
+    "elementsRemoved": 8,
+    "types": [
+      "overlay",
+      "cookie-banner",
+      "popup"
+    ],
+    "cookieConsentDismissed": true,
+    "lateConsentOverlaysRemoved": 0,
+    "removed": [
+      {
+        "selector": "div.onetrust-pc-dark-filter.ot-fade-in",
+        "type": "overlay"
+      },
+      {
+        "selector": "#onetrust-banner-sdk",
+        "type": "overlay"
+      },
+      {
+        "selector": "#onetrust-style",
+        "type": "cookie-banner",
+        "rule": "[id*=\"onetrust\"]"
+      },
+      {
+        "selector": "#block-wfg-onetrust",
+        "type": "cookie-banner",
+        "rule": "[id*=\"onetrust\"]"
+      },
+      {
+        "selector": "#onetrust-consent-sdk",
+        "type": "cookie-banner",
+        "rule": "[id*=\"onetrust\"]"
+      },
+      {
+        "selector": "div.site-search-bar-overlay",
+        "type": "popup",
+        "rule": "body [class*=\"overlay\"]:not(nav *)"
+      },
+      {
+        "selector": "div.open-dropdown-menu-overlay",
+        "type": "popup",
+        "rule": "body [class*=\"overlay\"]:not(nav *)"
+      }
+    ]
+  },
+  "snapshot": {
+    "html": "page.html",
+    "unresolvedSelectors": []
+  },
+  "images": [
+    {
+      "url": "https://www.worldfinancialgroup.com/themes/custom/wfg/logo.svg",
+      "type": "img"
+    },
+    {
+      "url": "https://www.worldfinancialgroup.com/sites/default/files/styles/hero_banner_1440_280/public/image/2026-09/bw_businessman_calling_a_taxi_in_street.jpg?h=2992ba0a&itok=jgAqDh6i",
+      "type": "img"
+    },
+    {
+      "url": "https://www.worldfinancialgroup.com/sites/default/files/styles/4_3_624w/public/image/2026-09/linda-fompo-with-award-cropped.jpg?h=dacbfaee&itok=AUVIGuWa",
+      "type": "img"
+    },
+    {
+      "url": "https://www.worldfinancialgroup.com/sites/default/files/styles/4_3_624w/public/image/2026-09/steven_webster_square_0.png?h=57024e64&itok=53sEP30Q",
+      "type": "img"
+    },
+    {
+      "url": "https://www.worldfinancialgroup.com/sites/default/files/styles/4_3_624w/public/image/2026-09/mike_brodeur_square_0.png?h=57024e64&itok=GleZ2lRV",
+      "type": "img"
+    },
+    {
+      "url": "https://www.worldfinancialgroup.com/sites/default/files/styles/4_3_624w/public/image/2026-10/office-high-five.jpg?h=752d9b52&itok=C4Q1QrGI",
+      "type": "img"
+    },
+    {
+      "url": "https://www.worldfinancialgroup.com/sites/default/files/styles/4_3_624w/public/image/2026-09/anissa_benich_square_0.png?h=57024e64&itok=JSfiH79O",
+      "type": "img"
+    },
+    {
+      "url": "https://www.worldfinancialgroup.com/sites/default/files/styles/4_3_624w/public/image/2026-09/wendy_boyd_square_0.png?h=57024e64&itok=XYH_F1pC",
+      "type": "img"
+    },
+    {
+      "url": "https://www.worldfinancialgroup.com/sites/default/files/styles/hero_banner_720_280/public/image/2026-09/bw_businessman_calling_a_taxi_in_street.jpg.webp?itok=3r35Y3vF",
+      "type": "picture"
+    },
+    {
+      "url": "https://www.worldfinancialgroup.com/sites/default/files/styles/hero_banner_720_280_2x/public/image/2026-09/bw_businessman_calling_a_taxi_in_street.jpg.webp?itok=ODMs6LXo",
+      "type": "picture"
+    },
+    {
+      "url": "https://www.worldfinancialgroup.com/sites/default/files/styles/hero_banner_960_280/public/image/2026-09/bw_businessman_calling_a_taxi_in_street.jpg.webp?itok=SbPpkykQ",
+      "type": "picture"
+    },
+    {
+      "url": "https://www.worldfinancialgroup.com/sites/default/files/styles/hero_banner_960_280_2x/public/image/2026-09/bw_businessman_calling_a_taxi_in_street.jpg.webp?itok=YnYKwsEm",
+      "type": "picture"
+    },
+    {
+      "url": "https://www.worldfinancialgroup.com/sites/default/files/styles/hero_banner_600_400/public/image/2026-09/bw_businessman_calling_a_taxi_in_street.jpg.webp?itok=mMH6udgS",
+      "type": "picture"
+    },
+    {
+      "url": "https://www.worldfinancialgroup.com/sites/default/files/styles/hero_banner_600_400_2x/public/image/2026-09/bw_businessman_calling_a_taxi_in_street.jpg.webp?itok=FBdUqBax",
+      "type": "picture"
+    },
+    {
+      "url": "https://www.worldfinancialgroup.com/sites/default/files/styles/hero_banner_360_300/public/image/2026-09/bw_businessman_calling_a_taxi_in_street.jpg.webp?itok=pcpIydcf",
+      "type": "picture"
+    },
+    {
+      "url": "https://www.worldfinancialgroup.com/sites/default/files/styles/hero_banner_360_300_2x/public/image/2026-09/bw_businessman_calling_a_taxi_in_street.jpg.webp?itok=2DqwD68a",
+      "type": "picture"
+    },
+    {
+      "url": "https://www.worldfinancialgroup.com/sites/default/files/styles/hero_banner_720_280/public/image/2026-09/bw_businessman_calling_a_taxi_in_street.jpg?h=2992ba0a&itok=jmTMseO2",
+      "type": "picture"
+    },
+    {
+      "url": "https://www.worldfinancialgroup.com/sites/default/files/styles/hero_banner_720_280_2x/public/image/2026-09/bw_businessman_calling_a_taxi_in_street.jpg?h=2992ba0a&itok=A2EMBf4p",
+      "type": "picture"
+    },
+    {
+      "url": "https://www.worldfinancialgroup.com/sites/default/files/styles/hero_banner_960_280/public/image/2026-09/bw_businessman_calling_a_taxi_in_street.jpg?h=2992ba0a&itok=pRB_9t7Y",
+      "type": "picture"
+    },
+    {
+      "url": "https://www.worldfinancialgroup.com/sites/default/files/styles/hero_banner_960_280_2x/public/image/2026-09/bw_businessman_calling_a_taxi_in_street.jpg?h=2992ba0a&itok=GiM0RUlX",
+      "type": "picture"
+    },
+    {
+      "url": "https://www.worldfinancialgroup.com/sites/default/files/styles/hero_banner_600_400/public/image/2026-09/bw_businessman_calling_a_taxi_in_street.jpg?h=2992ba0a&itok=bI8JDnZh",
+      "type": "picture"
+    },
+    {
+      "url": "https://www.worldfinancialgroup.com/sites/default/files/styles/hero_banner_600_400_2x/public/image/2026-09/bw_businessman_calling_a_taxi_in_street.jpg?h=2992ba0a&itok=2RPJt3KR",
+      "type": "picture"
+    },
+    {
+      "url": "https://www.worldfinancialgroup.com/sites/default/files/styles/hero_banner_360_300/public/image/2026-09/bw_businessman_calling_a_taxi_in_street.jpg?h=2992ba0a&itok=XIVUJlZt",
+      "type": "picture"
+    },
+    {
+      "url": "https://www.worldfinancialgroup.com/sites/default/files/styles/hero_banner_360_300_2x/public/image/2026-09/bw_businessman_calling_a_taxi_in_street.jpg?h=2992ba0a&itok=H3WUH-Yu",
+      "type": "picture"
+    },
+    {
+      "url": "https://www.worldfinancialgroup.com/sites/default/files/styles/4_3_624w/public/image/2026-09/linda-fompo-with-award-cropped.jpg.webp?itok=fNMXuac4",
+      "type": "picture"
+    },
+    {
+      "url": "https://www.worldfinancialgroup.com/sites/default/files/styles/4_3_1248w/public/image/2026-09/linda-fompo-with-award-cropped.jpg.webp?itok=Q8W28STG",
+      "type": "picture"
+    },
+    {
+      "url": "https://www.worldfinancialgroup.com/sites/default/files/styles/4_3_420w/public/image/2026-09/linda-fompo-with-award-cropped.jpg.webp?itok=LLkxZAiD",
+      "type": "picture"
+    },
+    {
+      "url": "https://www.worldfinancialgroup.com/sites/default/files/styles/4_3_840w/public/image/2026-09/linda-fompo-with-award-cropped.jpg.webp?itok=0IS33F8p",
+      "type": "picture"
+    },
+    {
+      "url": "https://www.worldfinancialgroup.com/sites/default/files/styles/4_3_1080w/public/image/2026-09/linda-fompo-with-award-cropped.jpg.webp?itok=RwngnAxy",
+      "type": "picture"
+    },
+    {
+      "url": "https://www.worldfinancialgroup.com/sites/default/files/styles/4_3_624w/public/image/2026-09/linda-fompo-with-award-cropped.jpg?h=dacbfaee&itok=AUVIGuWa",
+      "type": "picture"
+    },
+    {
+      "url": "https://www.worldfinancialgroup.com/sites/default/files/styles/4_3_1248w/public/image/2026-09/linda-fompo-with-award-cropped.jpg?h=dacbfaee&itok=gQjqmIdc",
+      "type": "picture"
+    },
+    {
+      "url": "https://www.worldfinancialgroup.com/sites/default/files/styles/4_3_420w/public/image/2026-09/linda-fompo-with-award-cropped.jpg?h=dacbfaee&itok=PXV4WTly",
+      "type": "picture"
+    },
+    {
+      "url": "https://www.worldfinancialgroup.com/sites/default/files/styles/4_3_840w/public/image/2026-09/linda-fompo-with-award-cropped.jpg?h=dacbfaee&itok=HxhJJ54b",
+      "type": "picture"
+    },
+    {
+      "url": "https://www.worldfinancialgroup.com/sites/default/files/styles/4_3_1080w/public/image/2026-09/linda-fompo-with-award-cropped.jpg?h=dacbfaee&itok=kBOj_BUW",
+      "type": "picture"
+    },
+    {
+      "url": "https://www.worldfinancialgroup.com/sites/default/files/styles/4_3_624w/public/image/2026-09/steven_webster_square_0.png.webp?itok=pGN6Olkf",
+      "type": "picture"
+    },
+    {
+      "url": "https://www.worldfinancialgroup.com/sites/default/files/styles/4_3_1248w/public/image/2026-09/steven_webster_square_0.png.webp?itok=ecKZ-bPq",
+      "type": "picture"
+    },
+    {
+      "url": "https://www.worldfinancialgroup.com/sites/default/files/styles/4_3_420w/public/image/2026-09/steven_webster_square_0.png.webp?itok=SLR8OGR2",
+      "type": "picture"
+    },
+    {
+      "url": "https://www.worldfinancialgroup.com/sites/default/files/styles/4_3_840w/public/image/2026-09/steven_webster_square_0.png.webp?itok=GEzsh9Qq",
+      "type": "picture"
+    },
+    {
+      "url": "https://www.worldfinancialgroup.com/sites/default/files/styles/4_3_1080w/public/image/2026-09/steven_webster_square_0.png.webp?itok=2vgPudtf",
+      "type": "picture"
+    },
+    {
+      "url": "https://www.worldfinancialgroup.com/sites/default/files/styles/4_3_624w/public/image/2026-09/steven_webster_square_0.png?h=57024e64&itok=53sEP30Q",
+      "type": "picture"
+    },
+    {
+      "url": "https://www.worldfinancialgroup.com/sites/default/files/styles/4_3_1248w/public/image/2026-09/steven_webster_square_0.png?h=57024e64&itok=qW9fZp-2",
+      "type": "picture"
+    },
+    {
+      "url": "https://www.worldfinancialgroup.com/sites/default/files/styles/4_3_420w/public/image/2026-09/steven_webster_square_0.png?h=57024e64&itok=eV6wPbKH",
+      "type": "picture"
+    },
+    {
+      "url": "https://www.worldfinancialgroup.com/sites/default/files/styles/4_3_840w/public/image/2026-09/steven_webster_square_0.png?h=57024e64&itok=yms-Cjd9",
+      "type": "picture"
+    },
+    {
+      "url": "https://www.worldfinancialgroup.com/sites/default/files/styles/4_3_1080w/public/image/2026-09/steven_webster_square_0.png?h=57024e64&itok=IkyT0Xtb",
+      "type": "picture"
+    },
+    {
+      "url": "https://www.worldfinancialgroup.com/sites/default/files/styles/4_3_624w/public/image/2026-09/mike_brodeur_square_0.png.webp?itok=4IFWeppA",
+      "type": "picture"
+    },
+    {
+      "url": "https://www.worldfinancialgroup.com/sites/default/files/styles/4_3_1248w/public/image/2026-09/mike_brodeur_square_0.png.webp?itok=tVjhnCg3",
+      "type": "picture"
+    },
+    {
+      "url": "https://www.worldfinancialgroup.com/sites/default/files/styles/4_3_420w/public/image/2026-09/mike_brodeur_square_0.png.webp?itok=Yhum83-N",
+      "type": "picture"
+    },
+    {
+      "url": "https://www.worldfinancialgroup.com/sites/default/files/styles/4_3_840w/public/image/2026-09/mike_brodeur_square_0.png.webp?itok=77TUysEW",
+      "type": "picture"
+    },
+    {
+      "url": "https://www.worldfinancialgroup.com/sites/default/files/styles/4_3_1080w/public/image/2026-09/mike_brodeur_square_0.png.webp?itok=kUAmc_7i",
+      "type": "picture"
+    },
+    {
+      "url": "https://www.worldfinancialgroup.com/sites/default/files/styles/4_3_624w/public/image/2026-09/mike_brodeur_square_0.png?h=57024e64&itok=GleZ2lRV",
+      "type": "picture"
+    },
+    {
+      "url": "https://www.worldfinancialgroup.com/sites/default/files/styles/4_3_1248w/public/image/2026-09/mike_brodeur_square_0.png?h=57024e64&itok=3i-vl-Hv",
+      "type": "picture"
+    },
+    {
+      "url": "https://www.worldfinancialgroup.com/sites/default/files/styles/4_3_420w/public/image/2026-09/mike_brodeur_square_0.png?h=57024e64&itok=dQ14VeEn",
+      "type": "picture"
+    },
+    {
+      "url": "https://www.worldfinancialgroup.com/sites/default/files/styles/4_3_840w/public/image/2026-09/mike_brodeur_square_0.png?h=57024e64&itok=tmx4enpS",
+      "type": "picture"
+    },
+    {
+      "url": "https://www.worldfinancialgroup.com/sites/default/files/styles/4_3_1080w/public/image/2026-09/mike_brodeur_square_0.png?h=57024e64&itok=NksEiku9",
+      "type": "picture"
+    },
+    {
+      "url": "https://www.worldfinancialgroup.com/sites/default/files/styles/4_3_624w/public/image/2026-10/office-high-five.jpg.webp?itok=j9IOw2Hc",
+      "type": "picture"
+    },
+    {
+      "url": "https://www.worldfinancialgroup.com/sites/default/files/styles/4_3_1248w/public/image/2026-10/office-high-five.jpg.webp?itok=eiX655k-",
+      "type": "picture"
+    },
+    {
+      "url": "https://www.worldfinancialgroup.com/sites/default/files/styles/4_3_420w/public/image/2026-10/office-high-five.jpg.webp?itok=gRQhV_kx",
+      "type": "picture"
+    },
+    {
+      "url": "https://www.worldfinancialgroup.com/sites/default/files/styles/4_3_840w/public/image/2026-10/office-high-five.jpg.webp?itok=hJQXP4wv",
+      "type": "picture"
+    },
+    {
+      "url": "https://www.worldfinancialgroup.com/sites/default/files/styles/4_3_1080w/public/image/2026-10/office-high-five.jpg.webp?itok=RxNENcRg",
+      "type": "picture"
+    },
+    {
+      "url": "https://www.worldfinancialgroup.com/sites/default/files/styles/4_3_624w/public/image/2026-10/office-high-five.jpg?h=752d9b52&itok=C4Q1QrGI",
+      "type": "picture"
+    },
+    {
+      "url": "https://www.worldfinancialgroup.com/sites/default/files/styles/4_3_1248w/public/image/2026-10/office-high-five.jpg?h=752d9b52&itok=MXZLfON0",
+      "type": "picture"
+    },
+    {
+      "url": "https://www.worldfinancialgroup.com/sites/default/files/styles/4_3_420w/public/image/2026-10/office-high-five.jpg?h=752d9b52&itok=0I8coWev",
+      "type": "picture"
+    },
+    {
+      "url": "https://www.worldfinancialgroup.com/sites/default/files/styles/4_3_840w/public/image/2026-10/office-high-five.jpg?h=752d9b52&itok=ymfTs-tZ",
+      "type": "picture"
+    },
+    {
+      "url": "https://www.worldfinancialgroup.com/sites/default/files/styles/4_3_1080w/public/image/2026-10/office-high-five.jpg?h=752d9b52&itok=yqh9qfmS",
+      "type": "picture"
+    },
+    {
+      "url": "https://www.worldfinancialgroup.com/sites/default/files/styles/4_3_624w/public/image/2026-09/anissa_benich_square_0.png.webp?itok=zn9COY25",
+      "type": "picture"
+    },
+    {
+      "url": "https://www.worldfinancialgroup.com/sites/default/files/styles/4_3_1248w/public/image/2026-09/anissa_benich_square_0.png.webp?itok=erI4L9U7",
+      "type": "picture"
+    },
+    {
+      "url": "https://www.worldfinancialgroup.com/sites/default/files/styles/4_3_420w/public/image/2026-09/anissa_benich_square_0.png.webp?itok=Nji9UoEC",
+      "type": "picture"
+    },
+    {
+      "url": "https://www.worldfinancialgroup.com/sites/default/files/styles/4_3_840w/public/image/2026-09/anissa_benich_square_0.png.webp?itok=aKq89L_-",
+      "type": "picture"
+    },
+    {
+      "url": "https://www.worldfinancialgroup.com/sites/default/files/styles/4_3_1080w/public/image/2026-09/anissa_benich_square_0.png.webp?itok=odqLh-f-",
+      "type": "picture"
+    },
+    {
+      "url": "https://www.worldfinancialgroup.com/sites/default/files/styles/4_3_624w/public/image/2026-09/anissa_benich_square_0.png?h=57024e64&itok=JSfiH79O",
+      "type": "picture"
+    },
+    {
+      "url": "https://www.worldfinancialgroup.com/sites/default/files/styles/4_3_1248w/public/image/2026-09/anissa_benich_square_0.png?h=57024e64&itok=cOV9pYH1",
+      "type": "picture"
+    },
+    {
+      "url": "https://www.worldfinancialgroup.com/sites/default/files/styles/4_3_420w/public/image/2026-09/anissa_benich_square_0.png?h=57024e64&itok=Z48t-Ose",
+      "type": "picture"
+    },
+    {
+      "url": "https://www.worldfinancialgroup.com/sites/default/files/styles/4_3_840w/public/image/2026-09/anissa_benich_square_0.png?h=57024e64&itok=wcighTTY",
+      "type": "picture"
+    },
+    {
+      "url": "https://www.worldfinancialgroup.com/sites/default/files/styles/4_3_1080w/public/image/2026-09/anissa_benich_square_0.png?h=57024e64&itok=a83Ovy61",
+      "type": "picture"
+    },
+    {
+      "url": "https://www.worldfinancialgroup.com/sites/default/files/styles/4_3_624w/public/image/2026-09/wendy_boyd_square_0.png.webp?itok=zqOIggjE",
+      "type": "picture"
+    },
+    {
+      "url": "https://www.worldfinancialgroup.com/sites/default/files/styles/4_3_1248w/public/image/2026-09/wendy_boyd_square_0.png.webp?itok=_ryaWUJF",
+      "type": "picture"
+    },
+    {
+      "url": "https://www.worldfinancialgroup.com/sites/default/files/styles/4_3_420w/public/image/2026-09/wendy_boyd_square_0.png.webp?itok=VMKoz3FI",
+      "type": "picture"
+    },
+    {
+      "url": "https://www.worldfinancialgroup.com/sites/default/files/styles/4_3_840w/public/image/2026-09/wendy_boyd_square_0.png.webp?itok=sAS8Qftg",
+      "type": "picture"
+    },
+    {
+      "url": "https://www.worldfinancialgroup.com/sites/default/files/styles/4_3_1080w/public/image/2026-09/wendy_boyd_square_0.png.webp?itok=oHDqXJHE",
+      "type": "picture"
+    },
+    {
+      "url": "https://www.worldfinancialgroup.com/sites/default/files/styles/4_3_624w/public/image/2026-09/wendy_boyd_square_0.png?h=57024e64&itok=XYH_F1pC",
+      "type": "picture"
+    },
+    {
+      "url": "https://www.worldfinancialgroup.com/sites/default/files/styles/4_3_1248w/public/image/2026-09/wendy_boyd_square_0.png?h=57024e64&itok=1_NKenIY",
+      "type": "picture"
+    },
+    {
+      "url": "https://www.worldfinancialgroup.com/sites/default/files/styles/4_3_420w/public/image/2026-09/wendy_boyd_square_0.png?h=57024e64&itok=iGncw-LE",
+      "type": "picture"
+    },
+    {
+      "url": "https://www.worldfinancialgroup.com/sites/default/files/styles/4_3_840w/public/image/2026-09/wendy_boyd_square_0.png?h=57024e64&itok=vou_-vAh",
+      "type": "picture"
+    },
+    {
+      "url": "https://www.worldfinancialgroup.com/sites/default/files/styles/4_3_1080w/public/image/2026-09/wendy_boyd_square_0.png?h=57024e64&itok=4DtiqZKZ",
+      "type": "picture"
+    }
+  ],
+  "skeleton": {
+    "signature": "sB(s(sB,s(2x1B,s(s,2x1),3x2,s(s,s(,)))),s)",
+    "nodeMap": {
+      "r": "body",
+      "rc1": "body > div.dialog-off-canvas-main-canvas",
+      "rc1c1": "body > div.dialog-off-canvas-main-canvas > div.layout-container.color-contrasting-warm-black.color-vibrant-white > div.region.region-highlighted",
+      "rc1c2": "#main-content",
+      "rc1c2c1": "#s-banner",
+      "rc1c2c2": "#block-wfg-content > article.node.node--type-component-page.node--promoted.node--view-mode-full > div.node__content > div.layout.onecol-layout.hide_if_empty.bg-color--.bottom-margin--default.grid-container:nth-of-type(2)",
+      "rc1c2c2c1": "#block-wfg-content > article.node.node--type-component-page.node--promoted.node--view-mode-full > div.node__content > div.layout.onecol-layout.hide_if_empty.bg-color--.bottom-margin--default.grid-container:nth-of-type(2) > div.layout__region.layout__row.layout__region--first > div.block.block--layout-builder.block--inline-blocktext.block--text > div.scheduling-overlay",
+      "rc1c2c2c2": "#block-wfg-content > article.node.node--type-component-page.node--promoted.node--view-mode-full > div.node__content > div.layout.onecol-layout.hide_if_empty.bg-color--.bottom-margin--default.grid-container:nth-of-type(2) > div.layout__region.layout__row.layout__region--first > div.block.block--layout-builder.block--inline-blocktext.block--text > div.organism--sq-text.grid-x",
+      "rc1c2c3": "#block-wfg-content > article.node.node--type-component-page.node--promoted.node--view-mode-full > div.node__content > div.layout.flexcol-layout.hide_if_empty.bg-color--.bottom-margin--default.grid-container",
+      "rc1c2c4": "#block-wfg-content > article.node.node--type-component-page.node--promoted.node--view-mode-full > div.node__content > div.layout.onecol-layout.hide_if_empty.bg-color--.bottom-margin--default.grid-container:nth-of-type(4)",
+      "rc1c2c4c1": "#block-wfg-content > article.node.node--type-component-page.node--promoted.node--view-mode-full > div.node__content > div.layout.onecol-layout.hide_if_empty.bg-color--.bottom-margin--default.grid-container:nth-of-type(4) > div.layout__region.layout__row.layout__region--first > div.block.block--layout-builder.block--inline-blocktext.block--text > div.scheduling-overlay",
+      "rc1c2c4c2": "#block-wfg-content > article.node.node--type-component-page.node--promoted.node--view-mode-full > div.node__content > div.layout.onecol-layout.hide_if_empty.bg-color--.bottom-margin--default.grid-container:nth-of-type(4) > div.layout__region.layout__row.layout__region--first > div.block.block--layout-builder.block--inline-blocktext.block--text > div.organism--sq-text.grid-x",
+      "rc1c2c4c2c1": "#view-all-press-releases",
+      "rc1c2c4c2c2": "#block-wfg-content > article.node.node--type-component-page.node--promoted.node--view-mode-full > div.node__content > div.layout.onecol-layout.hide_if_empty.bg-color--.bottom-margin--default.grid-container:nth-of-type(4) > div.layout__region.layout__row.layout__region--first > div.block.block--layout-builder.block--inline-blocktext.block--text > div.organism--sq-text.grid-x > div.organism--sq-text--copy.large-10 > div.molecule--sq-copy.block--layout-builder.block--inline-blocktext.block--text > div.links.p.mt-6.medium-mt-8",
+      "rc2": "#addtoany"
+    },
+    "sections": [
+      {
+        "id": "rc1",
+        "selector": "body > div.dialog-off-canvas-main-canvas > div.layout-container.color-contrasting-warm-black.color-vibrant-white > div.region.region-highlighted",
+        "layout": null,
+        "hasBg": true,
+        "hint": "default-content",
+        "background": "#6f6b66",
+        "backgroundImage": null,
+        "colored": true,
+        "paintSelector": "#block-wfg-trustpilotwidget > div.organism--trustpilot"
+      },
+      {
+        "id": "rc2",
+        "selector": "#s-banner",
+        "layout": "2x1",
+        "hasBg": true,
+        "hint": "block",
+        "background": "#63b6ff",
+        "backgroundImage": null,
+        "colored": true,
+        "paintSelector": "#s-banner > div > div.block.block--layout-builder.block--inline-blockhero-banner.block--hero-banner > div.organism--hero.variation--default.bg-color-vibrant-sky-blue.vibrant.position-relative"
+      },
+      {
+        "id": "rc3",
+        "selector": "#block-wfg-content > article.node.node--type-component-page.node--promoted.node--view-mode-full > div.node__content > div.layout.onecol-layout.hide_if_empty.bg-color--.bottom-margin--default.grid-container:nth-of-type(2)",
+        "layout": null,
+        "hasBg": false,
+        "hint": "block",
+        "background": "#ffffff",
+        "backgroundImage": null,
+        "colored": false,
+        "paintSelector": null
+      },
+      {
+        "id": "rc4",
+        "selector": "#block-wfg-content > article.node.node--type-component-page.node--promoted.node--view-mode-full > div.node__content > div.layout.flexcol-layout.hide_if_empty.bg-color--.bottom-margin--default.grid-container",
+        "layout": "3x2",
+        "hasBg": false,
+        "hint": "block",
+        "background": "#ffffff",
+        "backgroundImage": null,
+        "colored": false,
+        "paintSelector": null
+      },
+      {
+        "id": "rc5",
+        "selector": "#block-wfg-content > article.node.node--type-component-page.node--promoted.node--view-mode-full > div.node__content > div.layout.onecol-layout.hide_if_empty.bg-color--.bottom-margin--default.grid-container:nth-of-type(4)",
+        "layout": null,
+        "hasBg": false,
+        "hint": "default-content",
+        "background": "#ffffff",
+        "backgroundImage": null,
+        "colored": false,
+        "paintSelector": null
+      },
+      {
+        "id": "rc6",
+        "selector": "#addtoany",
+        "layout": null,
+        "hasBg": false,
+        "hint": "default-content",
+        "background": "#ffffff",
+        "backgroundImage": null,
+        "colored": false,
+        "paintSelector": null
+      }
+    ],
+    "invalidIgnore": []
+  },
+  "pageLayout": {
+    "box": {
+      "y": 200,
+      "height": 2325.125
+    },
+    "splits": [
+      {
+        "selector": "p > a",
+        "sides": [
+          [
+            0.5418781725888325,
+            0.5418781725888325
+          ]
+        ],
+        "top": 579,
+        "bottom": 603,
+        "cover": 0.010322025697543143,
+        "above": 1
+      }
+    ],
+    "start": {
+      "kind": "repeated cards"
+    }
+  },
+  "blocks": [
+    {
+      "id": "ad6fefa6490e",
+      "type": "unknown",
+      "detectionTier": 1,
+      "selector": "body > div.dialog-off-canvas-main-canvas > div > div",
+      "bounds": {
+        "x": 0,
+        "y": 160,
+        "width": 1440,
+        "height": 40
+      },
+      "visualChars": {
+        "colorScheme": "dark",
+        "density": "minimal",
+        "imagePattern": "noimg",
+        "hasGrid": false,
+        "structure": "video"
+      },
+      "description": "region",
+      "features": {
+        "skeleton": "iframe",
+        "variant": "iframe",
+        "variantClean": "iframe"
+      },
+      "screenshot": "blocks/ad6fefa6490e.jpg",
+      "html": "blocks/ad6fefa6490e.html"
+    },
+    {
+      "id": "4d4ad85f97c5",
+      "type": "columns",
+      "detectionTier": 1,
+      "selector": "#s-banner",
+      "bounds": {
+        "x": 0,
+        "y": 200,
+        "width": 1440,
+        "height": 280
+      },
+      "visualChars": {
+        "colorScheme": "light",
+        "density": "minimal",
+        "imagePattern": "noimg",
+        "hasGrid": true,
+        "structure": "heading + image"
+      },
+      "description": "layout",
+      "features": {
+        "skeleton": "[T]",
+        "variant": "[To|T]",
+        "variantClean": "[Tk|T]"
+      },
+      "screenshot": "blocks/4d4ad85f97c5.jpg",
+      "html": "blocks/4d4ad85f97c5.html"
+    },
+    {
+      "id": "9d04072f3b60",
+      "type": "default-content",
+      "detectionTier": 1,
+      "selector": "#block-wfg-content > article > div > div:nth-child(2)",
+      "bounds": {
+        "x": 0,
+        "y": 560,
+        "width": 1440,
+        "height": 54
+      },
+      "visualChars": {
+        "colorScheme": "light",
+        "density": "minimal",
+        "imagePattern": "noimg",
+        "hasGrid": true,
+        "structure": "text + link"
+      },
+      "description": "layout",
+      "features": {
+        "skeleton": "T",
+        "variant": "To",
+        "variantClean": "Tk"
+      },
+      "screenshot": null,
+      "html": "blocks/9d04072f3b60.html"
+    },
+    {
+      "id": "4c520008f826",
+      "type": "cards",
+      "detectionTier": 1,
+      "selector": "#block-wfg-content > article > div > div.layout.flexcol-layout.hide_if_empty.bg-color--.bottom-margin--default.grid-container",
+      "bounds": {
+        "x": 0,
+        "y": 694,
+        "width": 1440,
+        "height": 1548
+      },
+      "visualChars": {
+        "colorScheme": "light",
+        "density": "moderate",
+        "imagePattern": "noimg",
+        "hasGrid": true,
+        "structure": "image + heading + text + link"
+      },
+      "description": "layout",
+      "features": {
+        "skeleton": "[T]",
+        "variant": "[To]",
+        "variantClean": "[Tk]",
+        "set": true
+      },
+      "screenshot": "blocks/4c520008f826.jpg",
+      "html": "blocks/4c520008f826.html"
+    },
+    {
+      "id": "97a7e7cedf36",
+      "type": "default-content",
+      "detectionTier": 1,
+      "selector": "#view-all-press-releases",
+      "bounds": {
+        "x": 72,
+        "y": 2322,
+        "width": 1080,
+        "height": 43
+      },
+      "visualChars": {
+        "colorScheme": "light",
+        "density": "minimal",
+        "imagePattern": "noimg",
+        "hasGrid": false,
+        "structure": "heading"
+      },
+      "description": "heading",
+      "features": {
+        "skeleton": "T",
+        "variant": "To",
+        "variantClean": "Tk"
+      },
+      "screenshot": null,
+      "html": "blocks/97a7e7cedf36.html"
+    },
+    {
+      "id": "b6c5c864443f",
+      "type": "unknown",
+      "detectionTier": 2,
+      "selector": "#block-wfg-content > article > div > div:nth-child(4) > div > div > div.organism--sq-text.grid-x > div > div > div",
+      "bounds": {
+        "x": 72,
+        "y": 2397,
+        "width": 1080,
+        "height": 48
+      },
+      "visualChars": {
+        "colorScheme": "dark",
+        "density": "minimal",
+        "imagePattern": "noimg",
+        "hasGrid": false,
+        "structure": "link"
+      },
+      "description": "links",
+      "features": {
+        "skeleton": "T",
+        "variant": "Tw",
+        "variantClean": "Tw"
+      },
+      "screenshot": "blocks/b6c5c864443f.jpg",
+      "html": "blocks/b6c5c864443f.html"
+    }
+  ]
+}

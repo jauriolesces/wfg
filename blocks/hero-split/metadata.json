@@ -15,6 +15,14 @@
   },
   "options": [],
   "memberVariantIds": [],
-  "usage": "Use as the first block on a page when the hero has a solid color band, H1, short intro, one CTA and a shaped photo beside the copy.",
+  "usage": {
+    "guidance": "Use as the first block on a page when the hero has a solid color band, H1, short intro, one CTA and a shaped photo beside the copy.",
+    "pagesUsing": [
+      "/index",
+      "/wfg-press"
+    ],
+    "reuseCount": 1,
+    "lastUsed": "2026-11-16"
+  },
   "reuseGuidance": "Reuse for any split hero with a single image beside the copy. Use the base hero for full-bleed background-image heroes."
 }

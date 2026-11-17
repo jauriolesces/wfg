@@ -1,0 +1,80 @@
+/* cards-press: borderless press-release cards; 4:3 photo, H3, teaser, bottom-pinned text CTA */
+.cards-press > ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 48px var(--wfg-gutter);
+}
+
+.cards-press > ul > li {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  background-color: transparent;
+  color: var(--brand-text-color);
+}
+
+.cards-press .cards-press-card-image {
+  margin: 0 0 24px;
+}
+
+.cards-press .cards-press-card-image p {
+  margin: 0;
+}
+
+.cards-press .cards-press-card-image picture,
+.cards-press .cards-press-card-image img {
+  display: block;
+  width: 100%;
+  aspect-ratio: 4 / 3;
+  object-fit: cover;
+}
+
+.cards-press .cards-press-card-body {
+  display: flex;
+  flex-direction: column;
+  flex: 1 1 auto;
+}
+
+.cards-press .cards-press-card-body h3 {
+  margin: 0 0 16px;
+  font-family: var(--brand-heading-font-family);
+  font-size: var(--wfg-h3-size);
+  font-weight: 400;
+  line-height: var(--wfg-h3-line-height);
+  color: var(--brand-text-color);
+}
+
+.cards-press .cards-press-card-body p {
+  margin: 0 0 16px;
+  font-family: var(--brand-body-font-family);
+  font-size: var(--wfg-copy-size);
+  line-height: var(--wfg-copy-line-height);
+  color: var(--brand-text-color);
+}
+
+/* CTA paragraph: pinned to the card bottom, overrides the global .button-container margin */
+.cards-press .cards-press-card-body p.cards-press-card-cta {
+  margin: auto 0 0;
+  padding-top: 24px;
+  font-size: var(--wfg-body-size);
+  line-height: var(--wfg-body-line-height);
+}
+
+main .cards-press a.button:any-link {
+  color: var(--brand-text-color);
+}
+
+@media (width >= 600px) {
+  .cards-press > ul {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (width >= 900px) {
+  .cards-press > ul {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}

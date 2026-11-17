@@ -1,0 +1,24 @@
+{
+  "analysis-urls-checklist": {
+    "captured": "2026-11-16T22:17:50.483Z",
+    "totalPages": 2,
+    "statusBreakdown": {
+      "analyzed": 2,
+      "marked": 0
+    },
+    "pages": {
+      "https://www.worldfinancialgroup.com/": {
+        "url": "https://www.worldfinancialgroup.com/",
+        "status": "analyzed"
+      },
+      "https://www.worldfinancialgroup.com/wfg-press": {
+        "url": "https://www.worldfinancialgroup.com/wfg-press",
+        "status": "analyzed",
+        "analyzedAt": "2026-11-16T22:17:58.699Z",
+        "slug": "www_worldfinancialgroup_com_wfg-press--744b5da4",
+        "title": "WFG press | World Financial Group, Inc.",
+        "componentBlockCount": 4
+      }
+    }
+  }
+}
